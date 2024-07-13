@@ -25,10 +25,9 @@ header {
     height: 7vw;
     top: 0;
     left: 0;
-    backgr ound: #00000058;
     color:#fff;
     font-weight: 400;
-    
+
 
 }
 
@@ -98,7 +97,6 @@ section.hero * {
     justify-content: center;
     gap: 30px;
     font-family: "Josefin Sans", sans-serif;
-    backgr ound: #00000084;
     margin-top: 10.4%;
     margin-bottom: 8%;
     border-radius: 50px;
@@ -208,7 +206,6 @@ section.hero * {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    otline: 5px solid red;
     margin-bottom: 30rem;
     padding-top: 70px;
 
@@ -231,7 +228,6 @@ section.hero * {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    outine: 5px solid red;
     margin-bottom: 30rem;
     padding-top: 70px;
     text-decoration: none;

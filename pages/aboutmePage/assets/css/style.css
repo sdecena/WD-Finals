@@ -23,7 +23,6 @@ header {
     height: 7vw;
     top: 0;
     left: 0;
-    backg round: #00000058;
     color:#fff;
     font-weight: 400;
 
@@ -74,7 +73,6 @@ html {
     justify-content: space-between;
     align-items: center;
     padding: 80px 12%;
-    backgr ound: #0044ff60;
     margin-top: 0px;
     color: white;
 
@@ -97,7 +95,6 @@ html {
 .aboutRight h1 {
     color: rgb(78, 202, 255);
     font-size: 40px;
-    font-family: ;
     margin-bottom: 40px;
     margin-top: 90px;
     text-decoration: underline;
@@ -192,6 +189,7 @@ html {
 .homeIcons a:hover {
     transform: scale(1.2); /* Scale the icon to 120% on hover */
 }
+
 
 a.navigation:link {
     color: rgb(255, 255, 255);
