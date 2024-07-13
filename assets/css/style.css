@@ -130,6 +130,21 @@ section.hero * {
         color: rgb(0, 175, 198);
         font-weight: 500;
     }
+
+    & p {
+        text-align: center;
+
+    }
+}
+
+.overview {
+    margin-top: 0px;
+    height: 10dvh;
+    width:  50dvw;
+    display: flex;
+    align-items: center;
+    background-color: #0000007d;
+    border-radius: 10px;
 }
 
 .leftSide h1 {
@@ -142,13 +157,12 @@ section.hero * {
     animation: typing 3.5s steps(30, end), blink-caret .5s step-end infinite;
   }
   
-  /* The typing effect */
+
   @keyframes typing {
     from { width: 0 }
     to { width: 55% }
   }
   
-  /* The typewriter cursor effect */
   @keyframes blink-caret {
     from, to { border-color: transparent }
     50% { border-color: rgb(255, 255, 255) }
@@ -180,40 +194,11 @@ section.hero * {
     object-fit: cover;
     border-radius: 10%;
     box-shadow: rgba(5, 96, 201, 0.663) 0px 19px 38px, rgb(108, 3, 255) 0px 15px 12px;
- 
+    transition: all 500ms ease;
 
 }
 
-.homeIcons {
-    display: flex;
-    align-items: center;
-    background: #a5a5a512;
-    width: 40%;
-    display: flex;
-    justify-content: space-around;
-    height: 12%;
-    border-radius: 50px;
 
-}
-
-.icon1 {
-    color: #072a5c;
-    font-size: 30px;
-}
-
-
-.icon2 {
-    font-size:30px;
-    background: #d6249f;
-    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.icon3 {
-    color: #12d0ff;
-    font-size: 30px;
-}
 
 #aboutme{
     padding-top: 1000px;
@@ -237,7 +222,7 @@ section.hero * {
 
     & h3{
         font-size: 1rem;
-        
+
     }
 
 }
@@ -267,26 +252,25 @@ section.hero * {
 
 }
 
-/* unvisited link */
 a:link {
     color: rgb(255, 255, 255);
   }
 
-  /* visited link */
+
   a:visited {
     color: rgb(249, 249, 249);
   }
 
-  /* mouse over link */
+
   a:hover {
-    color: rgb(153, 145, 248);
+    color: rgb(255, 255, 255);
     transition: all 200ms ease;
   }
 
 
   a {
-    position: relative; /* Establishes a positioning context for the ::before pseudo-element */
-    text-decoration: none; /* Optionally remove the default underline */
+    position: relative;
+    text-decoration: none;
 }
 
   a::before {
@@ -297,17 +281,22 @@ a:link {
     height: 2px;
     bottom: -5px;
     left: 0;
-    background-color: rgb(153, 145, 248);
+    background-color: rgb(78, 202, 255);
     transform: scaleX(0);
     transition: transform 0.3s ease;
-    
-  }
+
+}
 
   a:hover::before {
     transform: scaleX(1);
-  }
+}
 
-  /* selected link */
+
   a:active {
     color: rgb(255, 255, 255);
-  }
+}
+
+.rightSide img:hover {
+    transform: scale(1.1);
+
+}

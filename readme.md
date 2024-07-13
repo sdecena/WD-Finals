@@ -1,4 +1,4 @@
-<a name="readme-top"/>
+<a name="readme-top">
 
 <br/>
 
@@ -9,7 +9,7 @@
     <img src="./assets/img/picModified.png" alt="" width="250" height="230">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Formulating Webpage</h3>
+  <h3 align="center">FINAL PROJECT</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">

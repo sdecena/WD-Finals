@@ -8,13 +8,13 @@
     box-sizing: border-box;
     font-family: "Tilt Neon", sans-serif;}
 
-/* Dev */
+
 header,
 header * {
     outline: 1px blue dash ed;
 }
 
-/* Dep */
+
 header {
     display: flex;
     justify-content: space-between;
@@ -25,7 +25,6 @@ header {
     height: 7vw;
     top: 0;
     left: 0;
-    bac kground: #00000058;
     color:#fff;
     font-weight: bold;
     font-family: "Josefin Sans", sans-serif;
@@ -77,18 +76,6 @@ section.hero * {
 
 
 
-#hobbiesSkills {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: white;
-    padding: 0rem;
-    backgro und-color: #333;
-    width: 100%;
-    margin-top: 100px;
-}
-
-
 
 .titleHobby {
     font-size: 2.5rem;
@@ -110,14 +97,13 @@ section.hero * {
 }
 
 .sectionPic {
-    backgr ound: #000;
     height: 300px;
     width: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 1rem;
-    
+
 }
 
 .hobbyPic {
@@ -127,85 +113,243 @@ section.hero * {
     height: 140%;
 }
 
-.hobbyDetailsContainer {
+#projectsDiv {
     display: flex;
-    flex-direction: column;
-    gap: rem;
-    flex: 1;
-    padding-top: 10px;
+    align-items: start;
+    justify-content: center;
+    flex-direction: row;
+    gap: 8rem;
+    padding: 0rem;
+    width: 100%;
+    margin-top: 180px;
+
+
 }
 
-.hobbyContainer {
+#projectsDiv2 {
     display: flex;
-    gap: 2rem;
-    backgro und: #000;
-    padding-top: 0px;
-    padding-bottom: 30px;
+    align-items: start;
+    justify-content: center;
+    flex-direction: row;
+    gap: 8rem;
+    padding: 0rem;
+    width: 100%;
+    margin-top: 40px;
+
+
 }
+
+.project1Container {
+    display: flex;
+
+
+
+}
+
 
 .detailsContainer {
-    padding-top: 20px;
-    flex: 10;
-    border-radius: 3rem;
-    border: 0.1rem solid rgb(113, 113, 113);
+    border-radius: rem;
+    border: 0.1rem solid rgb(255, 255, 255);
     text-align: center;
     color: white;
-    padding-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 30dvh;
+    width: 25dvw;
+    border-radius: 10px;
+    background: #000e3843;
+    transition: all 500ms ease;
 
 }
 
 .detailsContainer p {
-    padding: rem;
     font-weight: 400;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 
 }
+.detailsContainer img {
+    width: 20dvw;
+    height: 20dvh;
+    border-radius: 10px;
 
-.detailsContainer h3 {
-    font-size: 1.9rem;
-    margin-bottom: 20px;
-
-}
-
-.textContainer {
-    border-radius: 1rem;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 10px;
-    border: 0.1rem solid rgb(163, 163, 163);
-    color: rgb(255, 255, 255);
-}
-
-.textContainer p {
-    line-height: 1.5;
-    padding-bottom: 20px;
 }
 
 
 
-/* unvisited link */
-a:link {
+.project2Container {
+    display: flex;
+
+
+}
+
+
+.details2Container {
+    border-radius: rem;
+    border: 0.1rem solid rgb(255, 255, 255);
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 30dvh;
+    width: 25dvw;
+    border-radius: 10px;
+    background: #000e3843;
+    transition: all 500ms ease;
+
+
+}
+
+.details2Container p {
+    font-weight: 400;
+    margin-bottom: 15px;
+
+}
+.details2Container img {
+    width: 20dvw;
+    height: 20dvh;
+    border-radius: 10px;
+
+}
+
+
+
+.project3Container {
+    display: flex;
+
+}
+
+
+.details3Container {
+    border-radius: rem;
+    border: 0.1rem solid rgb(255, 255, 255);
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 30dvh;
+    width: 25dvw;
+    border-radius: 10px;
+    background: #000e3843;
+    transition: all 500ms ease;
+
+
+}
+
+.details3Container p {
+    font-weight: 400;
+    margin-bottom: 15px;
+
+}
+.details3Container img {
+    width: 20dvw;
+    height: 20dvh;
+    border-radius: 10px;
+
+}
+
+
+.project4Container {
+    display: flex;
+
+}
+
+
+.details4Container {
+    border-radius: rem;
+    border: 0.1rem solid rgb(255, 255, 255);
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 30dvh;
+    width: 25dvw;
+    border-radius: 10px;
+    background: #000e3843;
+    transition: all 500ms ease;
+
+
+}
+
+.details4Container p {
+    font-weight: 400;
+    margin-bottom: 15px;
+
+}
+.details4Container img {
+    width: 20dvw;
+    height: 20dvh;
+    border-radius: 10px;
+
+}
+
+.project5Container {
+    display: flex;
+
+}
+
+
+.details5Container {
+    border-radius: rem;
+    border: 0.1rem solid rgb(255, 255, 255);
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 30dvh;
+    width: 25dvw;
+    border-radius: 10px;
+    background: #000e3843;
+    transition: all 500ms ease;
+
+
+}
+
+.details5Container p {
+    font-weight: 400;
+    margin-bottom: 15px;
+
+}
+.details5Container img {
+    width: 20dvw;
+    height: 20dvh;
+    border-radius: 10px;
+
+}
+
+
+a.navigation:link {
     color: rgb(255, 255, 255);
   }
 
-  /* visited link */
-  a:visited {
+
+a.navigation:visited {
     color: rgb(249, 249, 249);
-  }
-
-  /* mouse over link */
-  a:hover {
-    color: rgb(153, 145, 248);
-    transition: all 200ms ease;
-  }
-
-
-  a {
-    position: relative; /* Establishes a positioning context for the ::before pseudo-element */
-    text-decoration: none; /* Optionally remove the default underline */
 }
 
-  a::before {
+
+a.navigation:hover {
+    color: rgb(255, 255, 255);
+    transition: all 200ms ease;
+}
+
+
+a {
+    position: relative;
+    text-decoration: none;
+    color: white;
+}
+
+a.navigation::before {
     content: "";
     position: absolute;
     display: block;
@@ -213,17 +357,45 @@ a:link {
     height: 2px;
     bottom: -5px;
     left: 0;
-    background-color: rgb(153, 145, 248);
+    background-color: rgb(78, 202, 255);
     transform: scaleX(0);
     transition: transform 0.3s ease;
 
-  }
+}
 
-  a:hover::before {
+a.navigation:hover::before {
     transform: scaleX(1);
-  }
+}
 
-  /* selected link */
-  a:active {
+
+a.navigation:active {
     color: rgb(255, 255, 255);
-  }
+}
+
+
+
+.project1Container:hover .detailsContainer {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+.project2Container:hover .details2Container {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+.project3Container:hover .details3Container {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgb(255, 255, 255)
+}
+
+.project4Container:hover .details4Container {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgb(255, 255, 255)
+}
+
+.project5Container:hover .details5Container {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgb(255, 255, 255)
+}
+

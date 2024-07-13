@@ -77,7 +77,7 @@ html {
     backgr ound: #0044ff60;
     margin-top: 0px;
     color: white;
-    
+
 }
 .aboutLeft img{
     width: 400px;
@@ -86,7 +86,7 @@ html {
     border-radius: 50px;
 }
 .aboutRight {
-    width: 54%;
+    width: 524%;
 }
 
 .aboutRight ul li {
@@ -95,10 +95,11 @@ html {
 }
 
 .aboutRight h1 {
-    color: rgb(97, 145, 170);
+    color: rgb(78, 202, 255);
     font-size: 40px;
+    font-family: ;
     margin-bottom: 40px;
-    margin-top: 50px;
+    margin-top: 90px;
     text-decoration: underline;
     text-underline-offset: 10px;
 }
@@ -108,6 +109,7 @@ html {
     color: #ffffff;
     line-height: 26px;
     font-size: 19px;
+    text-align: justify;
 }
 
 .aboutRight .address {
@@ -123,43 +125,97 @@ html {
     margin-bottom: 5px;
 }
 
+
+
 .address .address-logo {
     margin-right: 15px;
-    color: rgb(97, 145, 170);
+    color: rgb(78, 202, 255);
 }
 
 .address .separator {
     margin: 0 35px;
 }
 
+.address .separator2 {
+    margin: 0 22px;
+    margin-right: 35px;
+}
+
+.iconDiv {
+    display: flex;
+    background-color: yelowgreen;
+    align-items: center;
+    justify-content: center;
+    margin-top: -120px;
+    margin-left: 800px;
+}
+
+.homeIcons {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    display: flex;
+    justify-content: end;
+    gap: 3rem;
+    height: 7dvh;
+    border-radius: 20px;
+
+}
+
+.icon1 {
+    color: #072a5c;
+    font-size: 30px;
+
+}
 
 
+.icon2 {
+    font-size:30px;
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.icon3 {
+    color: #12d0ff;
+    font-size: 30px;
+}
 
 
+.homeIcons a {
+    position: relative;
+    text-decoration: none;
+    transition: transform 0.3s ease; 
+}
 
-/* unvisited link */
-a:link {
+.homeIcons a:hover {
+    transform: scale(1.2); /* Scale the icon to 120% on hover */
+}
+
+a.navigation:link {
     color: rgb(255, 255, 255);
   }
 
-  /* visited link */
-  a:visited {
+
+a.navigation:visited {
     color: rgb(249, 249, 249);
-  }
-
-  /* mouse over link */
-  a:hover {
-    color: rgb(153, 145, 248);
-    transition: all 200ms ease;
-  }
-
-
-  a {
-    position: relative; /* Establishes a positioning context for the ::before pseudo-element */
-    text-decoration: none; /* Optionally remove the default underline */
 }
 
-  a::before {
+
+a.navigation:hover {
+    color: rgb(255, 255, 255);
+    transition: all 200ms ease;
+}
+
+
+a {
+    position: relative;
+    text-decoration: none;
+    color: white;
+}
+
+a.navigation::before {
     content: "";
     position: absolute;
     display: block;
@@ -167,17 +223,17 @@ a:link {
     height: 2px;
     bottom: -5px;
     left: 0;
-    background-color: rgb(153, 145, 248);
+    background-color: rgb(78, 202, 255);
     transform: scaleX(0);
     transition: transform 0.3s ease;
-    
-  }
 
-  a:hover::before {
+}
+
+a.navigation:hover::before {
     transform: scaleX(1);
-  }
+}
 
-  /* selected link */
-  a:active {
+
+a.navigation:active {
     color: rgb(255, 255, 255);
-  }
+}
