@@ -52,6 +52,9 @@
       <a href="#deployed-project-links">Deployed Project Links</a>
     </li>
         <li>
+      <a href="#deployment-instructions">Deployment Instructions</a>
+    </li>
+        <li>
       <a href="#wakatime-account">WakaTime Account</a>
     </li>
   </ol>
@@ -71,17 +74,7 @@
 - What are key components
 - What technology used and how it is used -->
 
-This project is all about designing a website that contains our own portfolio/resume. Its main
-purpose is for us to develop and practice our skills in using HTML and CSS, in addition, this
-project will also provide a platform for users to present their background, experience, and skills.
-
-For the key components of this website, this website is a multipage website that includes a 
-home page, an about me page, an education page, and the hobbies & skills page. The website 
-also has hover animations, a timeline feature, and hyperlinks for the creators social media 
-accounts.
-
-As for the technology used, Visual Studio Code were used as the code editor, while HTML and 
-CSS is used in developing the website.
+This project was for us to create a personal website functioning as an interactive resume, designed to showcase my background, skills, hobbies, and a portfolio of all my course projects. Its purpose is to provide an overview of myself, my skills, hobbies, and my past projects. The key components of this website includes hover animations, typewriter animation, multipage website, personal hobbies and interests, and a portfolio highlighting each of my projects. The website was built using HTML/CSS for structure and style.
 
 
 ### Key Components
@@ -90,6 +83,7 @@ CSS is used in developing the website.
 - MultiPage Website
 - Hover Animation
 - Social Media Hyperlinks
+- Portfolio of All Past Projects
 - Typewriter Animation
 
 
@@ -152,5 +146,12 @@ Seatwork 3: https://sdecena.github.io/WD-Seatwork-3/
 Hands-On 2: https://sdecena.github.io/WD-Hands-On-2/
 Seatwork 4: https://sdecena.github.io/WD-Seatwork-4/
 
+## Deployment Instructions
+
+Instructions: https://scribehow.com/shared/Deploy_a_website_using_GitHub_Pages__UyFSCsflSte7l0IhcvFFdg?referrer=documents
+
+
 ## WakaTime Account
 Account Link: https://wakatime.com/dashboard
+[![wakatime](https://wakatime.com/badge/user/018ee9d4-39bd-45e0-9928-c54137b7f627/project/413f6164-c884-4bce-89e3-5458330cfa94.svg)](https://wakatime.com/badge/user/018ee9d4-39bd-45e0-9928-c54137b7f627/project/413f6164-c884-4bce-89e3-5458330cfa94)
+

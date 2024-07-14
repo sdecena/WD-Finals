@@ -28,6 +28,26 @@ header {
 
 }
 
+header h1 {
+    text-shadow:
+    0 0 7px rgb(0, 175, 198),
+    0 0 10px rgb(0, 175, 198),
+    0 0 21px rgb(0, 175, 198),
+    0 0 42px rgb(0, 175, 198);
+    transition: all 500ms ease;
+}
+
+header h1:hover {
+    text-shadow:
+    0 0 7px rgb(0, 175, 198),
+    0 0 10px rgb(0, 175, 198),
+    0 0 21px rgb(0, 175, 198),
+    0 0 42px rgb(0, 175, 198),
+    0 0 82px rgb(0, 175, 198),
+    0 0 122px rgb(0, 175, 198);
+    transform: scale(1.1);
+}
+
 .links{
     gap: 2rem;
     list-style: none;
