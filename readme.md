@@ -139,12 +139,19 @@ WD-ProjectName
 
 ## Deployed Project Links
 
-Finals: https://sdecena.github.io/WD-Finals/
-Seatwork 2: https://sdecena.github.io/WD-Seatwork-2/
-Midterms: https://sdecena.github.io/WD-Midterm/
-Seatwork 3: https://sdecena.github.io/WD-Seatwork-3/
-Hands-On 2: https://sdecena.github.io/WD-Hands-On-2/
-Seatwork 4: https://sdecena.github.io/WD-Seatwork-4/
+
+- Finals: https://sdecena.github.io/WD-Finals/
+
+- Seatwork 2: https://sdecena.github.io/WD-Seatwork-2/
+
+- Midterms: https://sdecena.github.io/WD-Midterm/
+
+- Seatwork 3: https://sdecena.github.io/WD-Seatwork-3/
+
+- Hands-On 2: https://sdecena.github.io/WD-Hands-On-2/
+
+- Seatwork 4: https://sdecena.github.io/WD-Seatwork-4/
+
 
 ## Deployment Instructions
 
@@ -152,6 +159,8 @@ Instructions: https://scribehow.com/shared/Deploy_a_website_using_GitHub_Pages__
 
 
 ## WakaTime Account
-Account Link: https://wakatime.com/dashboard
+WakaTime Link: https://wakatime.com/@018ee9d4-39bd-45e0-9928-c54137b7f627/projects/hkvncfmlti?start=2024-07-08&end=2024-07-14
+
 [![wakatime](https://wakatime.com/badge/user/018ee9d4-39bd-45e0-9928-c54137b7f627/project/413f6164-c884-4bce-89e3-5458330cfa94.svg)](https://wakatime.com/badge/user/018ee9d4-39bd-45e0-9928-c54137b7f627/project/413f6164-c884-4bce-89e3-5458330cfa94)
+
 
