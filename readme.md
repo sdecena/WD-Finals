@@ -6,21 +6,21 @@
 <div align="center">
   <a href="https://github.com/sdecena/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/picModified.png" alt="" width="250" height="230">
+    <img src="./assets/img/pic-page.png" alt="e" width="240" height="240">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">FINAL PROJECT</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
- Webpage created by Decena, Stephen (TX03)
+ This website showcases all our past projects throughout the course.
 </div>
 
 <br />
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=sdecena/WD-Seatwork-2)
+![](https://visit-counter.vercel.app/counter.png?page=sdecena/WD-Finals)
 
 ---
 
@@ -49,7 +49,10 @@
       <a href="#resources">Resources</a>
     </li>
         <li>
-      <a href="#documentation">Documentation</a>
+      <a href="#deployed-project-links">Deployed Project Links</a>
+    </li>
+        <li>
+      <a href="#wakatime-account">WakaTime Account</a>
     </li>
   </ol>
 </details>
@@ -86,8 +89,8 @@ CSS is used in developing the website.
 <!-- The following are just sample -->
 - MultiPage Website
 - Hover Animation
-- Timeline Feature
 - Social Media Hyperlinks
+- Typewriter Animation
 
 
 ### Technology
@@ -140,4 +143,14 @@ WD-ProjectName
 | Social Media Links  | Adding my social media links to the icons. | https://www.youtube.com/watch?v=Hskt1jN7JTc|
 | Font Awesome Icons  | Adding other icons from font awesome for the website. | https://www.youtube.com/watch?v=Qj0anxxjPlc&t=21s |
 
+## Deployed Project Links
 
+Finals: https://sdecena.github.io/WD-Finals/
+Seatwork 2: https://sdecena.github.io/WD-Seatwork-2/
+Midterms: https://sdecena.github.io/WD-Midterm/
+Seatwork 3: https://sdecena.github.io/WD-Seatwork-3/
+Hands-On 2: https://sdecena.github.io/WD-Hands-On-2/
+Seatwork 4: https://sdecena.github.io/WD-Seatwork-4/
+
+## WakaTime Account
+Account Link: https://wakatime.com/dashboard
