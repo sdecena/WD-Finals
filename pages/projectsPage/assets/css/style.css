@@ -9,11 +9,6 @@
     font-family: "Tilt Neon", sans-serif;}
 
 
-header,
-header * {
-    outline: 1px blue dash ed;
-}
-
 
 header {
     display: flex;
@@ -337,42 +332,31 @@ a.navigation:visited {
 }
 
 
-a.navigation:hover {
-    color: rgb(255, 255, 255);
-    transition: all 200ms ease;
-}
+a.navigation {
+    --b: 0.2em;   /* the thickness of the line */
+    --c: rgb(0, 175, 198); /* the color */
 
+    color: #0000;
+    padding-block: var(--b);
+    background:
+      linear-gradient(var(--c) 50%,#000 0) 0% calc(100% - var(--_p,0%))/100% 200%,
+      linear-gradient(var(--c) 0 0) 0% var(--_p,0%)/var(--_p,0%) var(--b) no-repeat;
+    -webkit-background-clip: text,padding-box;
+            background-clip: text,padding-box;
+    transition: .3s var(--_s,0s) linear,background-size .3s calc(.3s - var(--_s,0s));
+}
+a.navigation:hover {
+    --_p: 100%;
+    --_s: .3s;
+    text-shadow: 2px 2px 5px rgb(44, 255, 241);
+    color: rgb(0, 175, 198);
+}
 
 a {
     position: relative;
     text-decoration: none;
     color: white;
 }
-
-a.navigation::before {
-    content: "";
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: 2px;
-    bottom: -5px;
-    left: 0;
-    background-color: rgb(78, 202, 255);
-    transform: scaleX(0);
-    transition: transform 0.3s ease;
-
-}
-
-a.navigation:hover::before {
-    transform: scaleX(1);
-}
-
-
-a.navigation:active {
-    color: rgb(255, 255, 255);
-}
-
-
 
 .project1Container:hover .detailsContainer {
     transform: scale(1.05);

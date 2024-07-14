@@ -8,11 +8,7 @@
 
 }
 
-/* Dev */
-header,
-header * {
-    outline: 1px blue dash ed;
-}
+
 
 /* Dep */
 header {
@@ -27,8 +23,26 @@ header {
     left: 0;
     color:#fff;
     font-weight: 400;
+}
 
+header h1 {
+    text-shadow:
+    0 0 7px rgb(0, 175, 198),
+    0 0 10px rgb(0, 175, 198),
+    0 0 21px rgb(0, 175, 198),
+    0 0 42px rgb(0, 175, 198);
+    transition: all 500ms ease;
+}
 
+header h1:hover {
+    text-shadow:
+    0 0 7px rgb(0, 175, 198),
+    0 0 10px rgb(0, 175, 198),
+    0 0 21px rgb(0, 175, 198),
+    0 0 42px rgb(0, 175, 198),
+    0 0 82px rgb(0, 175, 198),
+    0 0 122px rgb(0, 175, 198);
+    transform: scale(1.1);
 }
 
 .links{
@@ -65,13 +79,6 @@ body {
 html {
     scroll-behavior: smooth;
 }
-
-section.hero,
-section.hero * {
-    outline: 1px red dahed
-}
-
-
 
 #home {
     display: flex;
@@ -115,18 +122,19 @@ section.hero * {
     }
 
     & h2{
-        font-size: 2.8rem;
+        font-size: 2.5rem;
         font-weight: 200;
     }
 
     & h3{
-        font-size: 2rem;
+        font-size: 1.6rem;
         font-weight: 200;
     }
 
     & span{
         color: rgb(0, 175, 198);
         font-weight: 500;
+        font-style: italic;
     }
 
     & p {
@@ -154,7 +162,7 @@ section.hero * {
     letter-spacing: .15em; /* Adjust as needed */
     animation: typing 3.5s steps(30, end), blink-caret .5s step-end infinite;
   }
-  
+
 
   @keyframes typing {
     from { width: 0 }
@@ -248,49 +256,36 @@ section.hero * {
 
 }
 
-a:link {
+a.navigation:link {
     color: rgb(255, 255, 255);
   }
 
 
-  a:visited {
+a.navigation:visited {
     color: rgb(249, 249, 249);
-  }
-
-
-  a:hover {
-    color: rgb(255, 255, 255);
-    transition: all 200ms ease;
-  }
-
-
-  a {
-    position: relative;
-    text-decoration: none;
-}
-
-  a::before {
-    content: "";
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: 2px;
-    bottom: -5px;
-    left: 0;
-    background-color: rgb(78, 202, 255);
-    transform: scaleX(0);
-    transition: transform 0.3s ease;
-
-}
-
-  a:hover::before {
-    transform: scaleX(1);
 }
 
 
-  a:active {
-    color: rgb(255, 255, 255);
+a.navigation {
+    --b: 0.2em;   /* the thickness of the line */
+    --c: rgb(0, 175, 198); /* the color */
+
+    color: #0000;
+    padding-block: var(--b);
+    background:
+      linear-gradient(var(--c) 50%,#000 0) 0% calc(100% - var(--_p,0%))/100% 200%,
+      linear-gradient(var(--c) 0 0) 0% var(--_p,0%)/var(--_p,0%) var(--b) no-repeat;
+    -webkit-background-clip: text,padding-box;
+            background-clip: text,padding-box;
+    transition: .3s var(--_s,0s) linear,background-size .3s calc(.3s - var(--_s,0s));
 }
+a.navigation:hover {
+    --_p: 100%;
+    --_s: .3s;
+    text-shadow: 2px 2px 5px rgb(44, 255, 241);
+    color: rgb(0, 175, 198);
+}
+
 
 .rightSide img:hover {
     transform: scale(1.1);

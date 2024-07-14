@@ -8,10 +8,7 @@
     box-sizing: border-box;
     font-family: "Tilt Neon", sans-serif;}
 
-header,
-header * {
-    outline: 1px blue dash ed;
-}
+
 
 header {
     display: flex;
@@ -23,11 +20,11 @@ header {
     height: 7vw;
     top: 0;
     left: 0;
-    backgr ound: #00000058;
     color:#fff;
     font-weight: bold;
     font-family: "Josefin Sans", sans-serif;
     font-weight: 400;
+    position: absolute;
 
 }
 
@@ -72,53 +69,140 @@ section.hero * {
     outline: 1px red dahed
 }
 
-
-
-
-
-
-
-
-a:link {
-    color: rgb(255, 255, 255);
-  }
-
-
-  a:visited {
-    color: rgb(249, 249, 249);
-  }
-
-
-  a:hover {
-    color: rgb(255, 255, 255);
-    transition: all 200ms ease;
-  }
-
-
-  a {
-    position: relative;
-    text-decoration: none;
+.creditsContainer {
+  display: flex;
+  align-items:center;
+  justify-content: space-evenly;
+  margin-left: 100px;
 }
 
-  a::before {
-    content: "";
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: 2px;
-    bottom: -5px;
-    left: 0;
-    background-color: rgb(78, 202, 255);
-    transform: scaleX(0);
-    transition: transform 0.3s ease;
-
+.credits2Container {
+  display: flex;
+  align-items:center;
+  justify-content: space-evenly;
+  margin-right: 100px;
 }
 
-  a:hover::before {
-    transform: scaleX(1);
+.credits3Container {
+  display: flex;
+  align-items:center;
+  justify-content: space-evenly;
+  margin-left: 100px;
+}
+
+.credits4Container {
+  display: flex;
+  align-items:center;
+  justify-content: space-evenly;
+  margin-right: 100px;
+}
+
+.credits5Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20vh;
+  width: 50vw;
+  margin-top: 30px;
+  margin-bottom: 100px;
+  margin-left: 350px;
+  transition: all 500ms ease;
+  background-color: rgba(0, 0, 0, 0.482);
+  border-radius: 90px;
+  outline: auto;
+
+  & h1 {
+    font-size: 3rem;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
 }
 
 
-  a:active {
-    color: rgb(255, 255, 255);
+.credits5Container:hover {
+  transform: scale(1.2);
+  text-shadow: 5px 5px 9px #ff3700;
+  background-image: url(../img/fireGIF.gif);
+  background-position: 0px -220px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.credit1 img {
+  margin-top: 150px;
+  width: 15vw;
+}
+
+.credit2 img {
+  margin-top: 150px;
+  width: 15vw;
+}
+
+.credit3 img {
+  margin-top: 150px;
+  width: 15vw;
+}
+
+.credit4 img {
+  width: 15vw;
+}
+
+.credit5 img {
+  width: 15vw;
+}
+
+.credit6 img {
+  width: 15vw;
+}
+
+.credit7 img {
+  width: 15vw;
+}
+
+.credit8 img {
+  width: 15vw;
+}
+
+.credit9 img {
+  width: 15vw;
+}
+
+.credit10 img {
+  margin-left: 100px;
+  width: 15vw;
+}
+
+.credit11 img {
+  margin-top: 20px;
+  width: 15vw;
+}
+
+a.navigation:link {
+  color: rgb(255, 255, 255);
+}
+
+
+a.navigation:visited {
+  color: rgb(249, 249, 249);
+}
+
+
+a.navigation {
+  --b: 0.2em;   /* the thickness of the line */
+  --c: rgb(0, 175, 198); /* the color */
+
+  color: #0000;
+  padding-block: var(--b);
+  background:
+    linear-gradient(var(--c) 50%,#000 0) 0% calc(100% - var(--_p,0%))/100% 200%,
+    linear-gradient(var(--c) 0 0) 0% var(--_p,0%)/var(--_p,0%) var(--b) no-repeat;
+  -webkit-background-clip: text,padding-box;
+          background-clip: text,padding-box;
+  transition: .3s var(--_s,0s) linear,background-size .3s calc(.3s - var(--_s,0s));
+}
+a.navigation:hover {
+  --_p: 100%;
+  --_s: .3s;
+  text-shadow: 2px 2px 5px rgb(44, 255, 241);
+  color: rgb(0, 175, 198);
 }

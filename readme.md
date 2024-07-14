@@ -130,36 +130,14 @@ WD-ProjectName
 | Title | Purpose | Link |
 |-|-|-|
 | Background Image Used | Background used for the website | https://wallpaperaccess.com/4k-gif |
-| Text Decoration | For modifying text decoration of links. | https://www.geeksforgeeks.org/css-text-decoration-property/ |
 | Link Hover | Link hover effect | https://stackoverflow.com/questions/41267357/css-ease-in-and-out-on-hover |
 | Google Fonts | Adding other styles of fonts | https://www.youtube.com/watch?v=iIqgW-stZmE |
 | Typing Effect | Typing effect in home page | https://css-tricks.com/snippets/css/typewriter-effect/ |
 | Social Media Icons | Using font awesome social media icons for the website | https://www.youtube.com/watch?v=8-VRIEaIKqI |
 | Gradient Instagram Icon | Gradient Instagram icon for my home page. | https://codepad.co/snippet/instagram-icon-gradient-with-font-awesome |
-| Underline Animation | Animation when hovering on links. | https://tobiasahlin.com/blog/css-trick-animating-link-underlines/ |
+| Hover Animation | Animation when hovering on links. | https://css-tricks.com/css-hover-effects-background-masks-3d/ |
 | Background Image Gradient Shade  | To add gradient shade effect on my background image. | https://www.geeksforgeeks.org/how-to-darken-an-image-using-css/ |
 | Social Media Links  | Adding my social media links to the icons. | https://www.youtube.com/watch?v=Hskt1jN7JTc|
 | Font Awesome Icons  | Adding other icons from font awesome for the website. | https://www.youtube.com/watch?v=Qj0anxxjPlc&t=21s |
-| Hobbies/Home Page Design Concept | Design inspo for the Hobbies and Home page | https://www.youtube.com/watch?v=ldwlOzRvYOU&t=6119s |
-| Timeline Design | For my education page | https://www.youtube.com/watch?v=bI3J5rUonEg |
-| About Me Page Design Concept | Design inspo for the About Me page | https://www.youtube.com/watch?v=Qj0anxxjPlc&t=21s |
-| Background Image Used | Background image for my website | https://unsplash.com/photos/brown-sand-under-blue-sky-during-daytime-86UVUXh3djE |
 
 
-## Documentation
-- 05/20: Started creating the base of the website.
----
-- 05/22: Adjusted header animations and format.
-Figuring out the layout of home page and image.
----
-- 05/23: Worked on home page and link hover animations.
-Social media icons and links.
-Putting the website background.
----
-- 05/24: Finished about me page and education page.
-Added timeline feature for education.
----
-- 05/25: Created hobbies & skills page.
-Finishing the website.
-
----
