@@ -140,7 +140,7 @@ WD-ProjectName
 ## Deployed Project Links
 
 
-- Finals: https://sdecena.github.io/WD-Finals/
+- WD-Finals: https://sdecena.github.io/WD-Finals/
 
 - Seatwork 2: https://sdecena.github.io/WD-Seatwork-2/
 
