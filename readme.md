@@ -49,7 +49,7 @@
       <a href="#resources">Resources</a>
     </li>
         <li>
-      <a href="#deployed-project-links">Deployed Project Links</a>
+      <a href="#project-links"> Project Links</a>
     </li>
         <li>
       <a href="#deployment-instructions">Deployment Instructions</a>
@@ -137,20 +137,21 @@ WD-ProjectName
 | Social Media Links  | Adding my social media links to the icons. | https://www.youtube.com/watch?v=Hskt1jN7JTc|
 | Font Awesome Icons  | Adding other icons from font awesome for the website. | https://www.youtube.com/watch?v=Qj0anxxjPlc&t=21s |
 
-## Deployed Project Links
+## Project Links
 
-
+Final Project Deployment Link:
 - WD-Finals: https://sdecena.github.io/WD-Finals/
 
-- Seatwork 2: https://sdecena.github.io/WD-Seatwork-2/
+Project Repositories:
+- Seatwork 2: https://github.com/sdecena/WD-Seatwork-2
 
-- Midterms: https://sdecena.github.io/WD-Midterm/
+- Midterms: https://github.com/sdecena/WD-Midterm
 
-- Seatwork 3: https://sdecena.github.io/WD-Seatwork-3/
+- Seatwork 3: https://github.com/sdecena/WD-Seatwork-3
 
-- Hands-On 2: https://sdecena.github.io/WD-Hands-On-2/
+- Hands-On 2: https://github.com/sdecena/WD-Hands-On-2
 
-- Seatwork 4: https://sdecena.github.io/WD-Seatwork-4/
+- Seatwork 4: https://github.com/sdecena/WD-Seatwork-4
 
 
 ## Deployment Instructions
